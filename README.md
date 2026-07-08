@@ -10,6 +10,7 @@ pi 启动时会自动扫描 `~/.pi/agent/skills/` 下所有 `SKILL.md` 并按 de
 |---|---|
 | [pi-extension-dev](pi-extension-dev/) | 开发 pi 扩展时避坑用的核心知识。涉及 tool/command/event 注册、ctx.newSession、subagent 协作、OpenAI-compatible provider 对接、扩展加载错误调试。 |
 | [spec-driven-dev](spec-driven-dev/) | 用 spec 驱动 LLM 开发，提升代码质量、减少返工。涵盖 RFC 2119 规范语言、trade-off 决策表、Open Questions 协议、任务拆分、acceptance criteria、reverse engineering review 等八大实践。 |
+| [teach](teach/) | 把当前目录变成持久化学习 workspace，跨 session 教用户一个技能或概念。基于认知科学（Bjork、Vygotsky）产出 MISSION.md + HTML lessons + reference 速查表 + ADR 式 learning-records。改编自 [mattpocock/skills](https://github.com/mattpocock/skills/tree/main/skills/productivity/teach)。 |
 
 ## 安装
 
